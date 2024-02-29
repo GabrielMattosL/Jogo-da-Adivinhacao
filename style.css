@@ -16,25 +16,28 @@ body {
   height: 100vh;
 }
 
-.hide {
-    display: none;
+body,
+button,
+input {
+  font-family: 'DM Sans', sans-serif;
 }
 
 button {
-    border-radius: 0 0.4rem 0.4rem 0;
-    background: var(--Iris-80, #7879F1);
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background .3s;
+  background-color: #7879f1;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 0.4rem 0.4rem 0;
+  cursor: pointer;
+
+  transition: background 0.3s;
 }
 
 button:hover {
-    background-color: #7878f1ce;
+  background-color: #6363ce;
 }
 
-body, button, input {
-  font-family: 'DM Sans', sans-serif;
+.hide {
+  display: none;
 }
 
 main {
@@ -49,14 +52,15 @@ main {
   text-align: center;
 }
 
-/* screen1 */
+/* Screen 1 */
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
   margin-bottom: 1.6rem;
 }
 
-h1, p {
+h1,
+p {
   color: #34355b;
 }
 
@@ -70,29 +74,26 @@ form {
   justify-content: center;
 }
 
-input, button {
-    border: none;
-    display: inline-flex;
-    padding: 1.6rem;
-    align-items: center;
+input,
+button {
+  border: none;
+  padding: 1.6rem;
 }
 
 input {
-    border-radius: 0.4rem 0 0 0.4rem;
-    background: #DCE2E9;
-    width: 7rem
+  background-color: #dce2e9;
+  width: 6rem;
+  border-radius: 0.4rem 0 0 0.4rem;
 }
 
-
-
-/* screen2 */
-
+/* Screen 2 */
 h2 {
-    font-size: 2.4rem;
-    font-weight: normal;
-    margin-bottom: 3.3rem;
+  font-size: 2.4rem;
+  font-weight: normal;
+
+  margin-bottom: 3.3rem;
 }
 
 .screen2 button {
-    border-radius: 0.4rem;
+  border-radius: 0.4rem;
 }
